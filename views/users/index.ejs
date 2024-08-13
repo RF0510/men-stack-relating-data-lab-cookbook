@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Pantry</title>
+  </head>
+  <body>
+    <h1>Welcome to The Pantry</h1>
+    <%- include('../partials/_navbar.ejs') %>
+
+
+    <% if (allUsers.length === 0) { %>
+      <p>No Users?!</p>
+    <%  } else { %>
+      <ol>
+        <% allUsers.forEach(user => {%>
+            
+          <li>
+            <a href="/users/<%=user._id%>"><p><%= user.username %></p></a>
+          </li>
+          <% }); %>
+      </ol>
+    <% } %>
+  </body>
+</html>

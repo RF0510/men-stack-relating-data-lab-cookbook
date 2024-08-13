@@ -1,15 +1,9 @@
 {
-  "name": "men-stack-session-auth-template",
+  "name": "men-stack-relating-data-lab-cookbook",
   "version": "1.0.0",
-  "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://git.generalassemb.ly/modular-curriculum-all-courses/men-stack-session-auth-template"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
